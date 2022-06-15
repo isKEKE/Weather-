@@ -1,0 +1,38 @@
+#bg{
+    background-color: #191919;
+    border: 1px solid rgba(230, 230, 230, 0.3);
+}
+
+CustomLable{
+    color: #e6e6e6;
+    font-family: "HarmonyOS Sans Thin";
+}
+
+CustomLable#title{
+    font-family: "HarmonyOS Sans";
+    font-size: 11px;
+}
+
+CustomLable#temperature{
+    font-size: 72px;
+}
+
+CustomLable#weather, CustomLable#company{
+    font-family: "HarmonyOS Sans";
+    font-size: 17px;
+}
+
+CustomLable#wind, CustomLable#air, CustomLable#humidity{
+    font-family: "HarmonyOS Sans";
+    font-size: 13px;
+}
+
+#lock{
+    background-color: rgba(230, 230, 230, 0);
+    border: 0px solid white;
+}
+
+#lock:hover{
+    background-color: rgba(230, 230, 230, 0.2);
+    border: 1px solid rgba(230, 230, 230, 0.5);
+}
